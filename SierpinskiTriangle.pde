@@ -1,13 +1,13 @@
 public void setup()
 {
-size (800,800);
+size (500,500);
 }
 int x = 20;
 int length = 50;
 
 public void draw()
 {
-sierpinski(x,50,length);
+sierpinski(x,50,length*9);
 }
 
 //public void mouseDragged()//optional
