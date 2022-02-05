@@ -1,13 +1,13 @@
 public void setup()
 {
 size (500,500);
-background (0);
 }
 int x = 20;
 int length = 50;
 
 public void draw()
 {
+background (0);
 sierpinski(50,450,900);
 }
 
