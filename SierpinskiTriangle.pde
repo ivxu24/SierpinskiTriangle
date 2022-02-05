@@ -8,14 +8,14 @@ int length = 50;
 
 public void draw()
 {
-sierpinski(x,50,length*9);
+sierpinski(50,450,900);
 }
 
 public void sierpinski(int x, int y, int len) 
 {
-int one = (int)Math.random()*265);
-int two = (int)Math.random()*265);
-stroke (one, two, 170);
+int a = (int)Math.random()*265);
+int b = (int)Math.random()*265);
+stroke (a, b, 170);
 if (len <= 20){
 noFill();
 strokeWeight(2);
