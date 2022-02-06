@@ -12,6 +12,11 @@ background (0);
 sierpinski(50,580,520);
 }
 
+public void mousePressed()//optional
+{
+sierpinski(200,96,200);
+}
+
 public void sierpinski(int x, int y, int len) 
 {
 stroke (153,227,225);
