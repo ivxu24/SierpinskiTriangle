@@ -1,6 +1,6 @@
 public void setup()
 {
-size (500,500);
+size (600,600);
 }
 
 int x = 40;
