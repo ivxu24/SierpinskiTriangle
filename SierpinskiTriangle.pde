@@ -9,7 +9,7 @@ int length = 60;
 public void draw()
 {
 background (0);
-sierpinski(50,430,900);
+sierpinski(50,580,520);
 }
 
 public void sierpinski(int x, int y, int len) 
