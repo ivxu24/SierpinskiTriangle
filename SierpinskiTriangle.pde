@@ -14,8 +14,6 @@ sierpinski(50,430,900);
 
 public void sierpinski(int x, int y, int len) 
 {
-int a = ((int)Math.random()*265);
-int b = ((int)Math.random()*265);
 stroke (153,227,225);
 if (len < 20){
 noFill();
